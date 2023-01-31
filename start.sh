@@ -1,7 +1,7 @@
 #!/bin/sh
 
 UUID=3a64e959-63fe-467d-9147-0c8d3b930d74
-WebPage=https://bing.com
+WebPage=https://bongo.cat/
 CaddyConfig=https://raw.githubusercontent.com/bsefwe/Rail/main/etc/Caddyfile
 XRayConfig=https://raw.githubusercontent.com/bsefwe/Rail/main/etc/xray.json
 Xray_Newv=`wget --no-check-certificate -qO- https://api.github.com/repos/XTLS/Xray-core/tags | grep 'name' | cut -d\" -f4 | head -1 | cut -b 2-`
